@@ -1,0 +1,82 @@
+@media (min-width:769px){
+
+.FeatureSection{
+    height:50vh;
+    width:100%;
+    overflow:hidden;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.FeatureSection_FirstRow{
+    height:50%;
+
+}
+.FeatureSection_FirstRow_sub{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.FeatureSection_secondRow{
+    height:50%;
+    width:100%;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+
+
+}
+
+
+/*-------- Mobile View ------- */
+
+
+@media (max-width:768px){
+
+    .FeatureSection{
+        height:50vh;
+        width:100%;
+        overflow:hidden;
+ 
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .FeatureSection_FirstRow{
+        height:50%;
+        width:100%;
+       
+    }
+    .FeatureSection_FirstRow_sub{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    
+    .FeatureSection_secondRow{
+        height:50%;
+        width:100%;
+
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    
+    }
+
+}

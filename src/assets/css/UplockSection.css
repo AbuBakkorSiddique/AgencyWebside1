@@ -1,0 +1,69 @@
+@media (min-width:769px){
+    .UplockSection{
+        height:80vh;
+        width:100%;
+        overflow:hidden;
+   
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    .UplockSection_right{
+        height:100%;
+        width:45%;
+   
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+        gap:3vh;
+    }
+
+
+}
+/*----- MObile View ----- */
+@media (max-width:768px) {
+
+
+    .UplockSection{
+        height:120vh;
+        width:100%;
+  
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:1vh;
+        overflow:hidden;
+    }
+
+    .UplockSection_right{
+        height:50%;
+        width:100%;
+   
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+        gap:3vh;
+        padding:5px;
+       
+    }
+
+    .UplockSection_right_one, .UplockSection_right_two , .UplockSection_right_three{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,114 @@
+@media (min-width:769px ) {
+
+.CommunitySection{
+    height:100vh;
+    width:100%;
+ 
+}
+.CommunitySection_firstRow{
+    height:25%;
+    width:100%;
+ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:1vh;
+}
+
+.CommunitySection_secondRow{
+    height:75%;
+    width:100%;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+
+
+.CommunitySection_secondRow_DivOne, .CommunitySection_secondRow_Divtwo ,.CommunitySection_secondRow_DivThree{
+    height:70%;
+    width:23%;
+ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    gap:2vh;
+    border-radius:10px;
+}
+.CommunicationImage1, .CommunicationImage2 , .CommunicationImage3{
+    height:30px;
+    width:30px;
+}
+
+
+
+}
+
+
+
+/*------- Mobile View -----------*/
+
+@media (max-width:768px){
+
+    .CommunitySection{
+        height:200vh;
+        width:100%;
+      
+        overflow:hidden;
+    }
+    .CommunitySection_firstRow{
+        height:25%;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:1vh;
+    }
+    
+    .CommunitySection_secondRow{
+        height:75%;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        padding:10px;
+    
+    }
+    
+    
+    
+    .CommunitySection_secondRow_DivOne, .CommunitySection_secondRow_Divtwo ,.CommunitySection_secondRow_DivThree{
+        height:32%;
+        width:90%;
+     
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        gap:5vh;
+        border-radius:10px;
+        padding:10px;
+    }
+    .CommunicationImage1, .CommunicationImage2 , .CommunicationImage3{
+        height:30px;
+        width:30px;
+    }
+    .Communication_Cart_Title_MobileVIew{
+     
+        display:flex;
+        
+    }
+
+
+
+}

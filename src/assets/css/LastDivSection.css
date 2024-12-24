@@ -1,0 +1,143 @@
+@media (min-width:769px){
+
+.LastDivSection{
+    height:100vh;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    overflow:hidden;
+}
+
+.LastDivSection_firstDiv{
+    height:30%;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.LastDivSection_secondDiv{
+    height:70%;
+    width:100%;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.LastDivSection_secondDiv_Divone ,.LastDivSection_secondDiv_DivTwo, .LastDivSection_secondDiv_DivThree{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+}
+
+.LastDivSection_secondDiv_contentOne, .LastDivSection_secondDiv_contentTwo , .LastDivSection_secondDiv_contentThree{
+    height:150px;
+    width:230px;
+
+    position:absolute;
+    top:60%;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+/*-------- Mobile View -----------*/
+
+@media (max-width:768px){
+
+
+
+    .LastDivSection{
+        height:270vh;
+        width:100%;
+ 
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        overflow:hidden;
+    }
+    
+    .LastDivSection_firstDiv{
+        height:15%;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        padding:5px;
+    
+    }
+    
+    .LastDivSection_secondDiv{
+        height:85%;
+        width:100%;
+  
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+    
+    }
+    
+    .LastDivSection_secondDiv_Divone ,.LastDivSection_secondDiv_DivTwo, .LastDivSection_secondDiv_DivThree{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        position:relative;
+    }
+    
+    .LastDivSection_secondDiv_contentOne, .LastDivSection_secondDiv_contentTwo , .LastDivSection_secondDiv_contentThree{
+        height:150px;
+        width:230px;
+    
+        position:absolute;
+        top:60%;
+        border-radius:10px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+    
+    }
+    
+    
+    
+    
+
+
+
+
+}

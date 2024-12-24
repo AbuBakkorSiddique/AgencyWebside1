@@ -1,0 +1,191 @@
+@media (min-width:769px){
+    .AchivementSection{
+        height:60vh;
+        width:100%;
+
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        overflow:hidden;
+    }
+
+    .AchivementSection_left{
+        height:80%;
+        width:40%;
+
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+        gap:2vh;
+    }
+
+    .AchivementSection_right{
+        height:80%;
+        width:40%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .AchivementSection_right_subOne{
+        height:50%;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .AchivementSection_right_subOne_left{
+        height:100%;
+        width:50%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+
+    .AchivementSection_right_subOne_right{
+        height:100%;
+        width:50%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+    .AchivementSection_right_subTwo{
+        height:50%;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .AchivementSection_right_subTwo_left{
+        height:100%;
+        width:50%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+    .AchivementSection_right_subTwo_right{
+        height:100%;
+        width:50%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+
+
+
+}
+
+/*------- Mobile View ------------*/
+
+@media (max-width:768px){
+
+    .AchivementSection{
+        height:120vh;
+        width:100%;
+
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-direction:column;
+        overflow:hidden;
+    }
+
+    .AchivementSection_left{
+        height:50%;
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        gap:2vh;
+    }
+
+    .AchivementSection_right{
+        height:50%;
+        width:100%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        padding:2vw;
+    }
+    .AchivementSection_right_subOne{
+        height:50%;
+        width:100%;
+ 
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .AchivementSection_right_subOne_left{
+        height:100%;
+        width:50%;
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+
+    .AchivementSection_right_subOne_right{
+        height:100%;
+        width:50%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+    .AchivementSection_right_subTwo{
+        height:50%;
+        width:100%;
+     
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .AchivementSection_right_subTwo_left{
+        height:100%;
+        width:50%;
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+    .AchivementSection_right_subTwo_right{
+        height:100%;
+        width:50%;
+      
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+    }
+
+
+
+
+
+
+
+}

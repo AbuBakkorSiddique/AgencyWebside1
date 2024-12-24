@@ -1,0 +1,108 @@
+@media (min-width:769px){
+
+ .CustomersSection{
+    height:70vh;
+    width:100%;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    overflow:hidden;
+
+ }
+
+ .CustomersSection_firstRow{
+  
+ }
+
+
+
+.CustomersSection_secondRow{
+   height:90%;
+   width:55%;
+
+   display:flex;
+   justify-content:space-around;
+   align-items:start;
+   flex-direction:column;
+   gap:1vh;
+
+}
+
+
+ .CustomersSection_secondRow_four{
+   height:100%;
+   width:100%;
+   display:flex;
+   justify-content:space-between;
+   margin-top:12px;
+   align-items:start;
+ }
+
+
+
+
+
+
+
+
+
+
+}
+/* ----------- Mobile View ----------*/
+@media (max-width:768px){
+
+
+
+
+
+
+
+   .CustomersSection{
+      height:130vh;
+      width:100%;
+
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      flex-direction:column;
+      padding:10px;
+      gap:1vh;
+      overflow:hidden;
+  
+   }
+  
+   .CustomersSection_firstRow{
+    
+   }
+  
+  
+  
+  .CustomersSection_secondRow{
+     height:70%;
+     width:100%;
+
+     display:flex;
+     justify-content:space-around;
+     align-items:center;
+     flex-direction:column;
+     gap:1vh;
+     text-align:center;
+     
+  
+  }
+  
+  
+   .CustomersSection_secondRow_four{
+     height:100%;
+     width:100%;
+     display:flex;
+     justify-content:space-between;
+     margin-top:12px;
+     align-items:start;
+   }
+  
+  
+
+
+}

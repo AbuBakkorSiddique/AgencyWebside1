@@ -1,0 +1,69 @@
+@media (min-width:769px){
+    .CalenderSection{
+        height:80vh;
+        width:100%;
+        overflow:hidden;
+   
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    .CalenderSection_right{
+        height:100%;
+        width:45%;
+   
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+        gap:3vh;
+    }
+
+
+}
+/*----- MObile View ----- */
+@media (max-width:768px) {
+
+
+    .CalenderSection{
+        height:130vh;
+        width:100%;
+  
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:3vh;
+        overflow:hidden;
+    }
+
+    .CalenderSection_right{
+        height:50%;
+        width:100%;
+   
+        display:flex;
+        justify-content:center;
+        align-items:start;
+        flex-direction:column;
+        gap:3vh;
+        padding:5px;
+       
+    }
+
+    .CalenderSection_right_one, .CalenderSection_right_two , .CalenderSection_right_three{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+
+
+
+
+
+
+
+}
